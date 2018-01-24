@@ -969,6 +969,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="No Sh*t" count="1">
 	<ingredient name="turd" count="1"/>
 </recipe>
+<!--#Ty6-->
+<recipe name="fertilizer" count="1">
+	<ingredient name="turd" count="1"/>
+	</recipe>
+
 <recipe name="fertilizer" count="1" craft_area="chemistryStation">
 	<ingredient name="turd" count="1"/>
 	<ingredient name="potassiumNitratePowder" count="10"/>

@@ -984,7 +984,7 @@
 
 <lootgroup name="cupboard">
 	<item name="canEmpty"/>
-	<item group="cannedfood" count="3" prob="5"/>
+	<item group="cannedfood" prob="0.5"/>
 	<item group="seeds" prob="0.05"/>
 	<item name="bottledWater" prob="0.5"/>
 	<item name="emptyJar" count="1,4"/>
@@ -1516,11 +1516,13 @@
 </lootcontainer>
 
 <!-- zombie cop-->
+<!--#Ty7-->
 <lootcontainer id="17" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
 	<item group="junk" prob="3"/>
+	<item name="gun44Magnum" prob="2"/>
 	<item group="rottenFood" prob="1"/>
 	<item name="shamSandwich" count="1,5"/>
-	<item group="weaponsPistol+ammo" prob="1.1"/>
+	<item group="weaponsPistol+ammo" prob="3.1"/>
 	<item group="weaponsAnyShotguns+ammo" prob="1.1"/>
 	<item group="ammo"/>
 	<item name="flashlight02" prob="0.5"/>
@@ -1567,7 +1569,7 @@
 
 <!-- birds nest-->
 <lootcontainer id="25" count="1,3" size="4,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
-	<item name="egg" count="1" prob="0.25"/>
+	<item name="egg" count="6" prob="0.25"/>
 	<item name="feather" count="4,10" prob="0.75"/>
 </lootcontainer>
 
@@ -1580,14 +1582,14 @@
 <!-- lootcontainer 31 Supply Crate Explosives -->
 <!-- lootcontainer 32 Supply Crate Ranged weapons Day 5 -->
 <!-- lootcontainer 33 Supply Crate Ranged weapons Day 7 -->
-
+<!--#Ty8-->
 <!-- Supply Crate General, the normal airdrop -->
 <lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate">
 	<item group="weaponsMilitaryGuns+ammo" prob="1.2"/>
 	<item group="rareBooks"/>
 	<item group="airdropMedicine" count="1,4"/>
 	<item name="flashlight02" prob="0.2"/>
-	<item name="gunPistolSilenced" count="1"/>
+	<item group="cannedfood"/>
 </lootcontainer>
 
 <!-- tree hollowed stump, place where people stash things, -->
@@ -1619,18 +1621,17 @@
 <lootcontainer id="37" count="0" size="5,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item name="cobweb" count="1"/>
 </lootcontainer>
-
+<!--Ty9-->
 <!-- fatHawaiianZombie, fat zombie -->
 <lootcontainer id="38" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="4"/>
+	<item group="tshirtAll" count="1"/>
 	<item group="rottenFood" prob="4"/>
 	<item name="bottledWater" count="1,2" prob="1.5"/>
 	<item name="shamSandwich" prob="5"/>
 	<item group="cannedfood" prob="5"/>
 	<item name="painkillers" prob="1"/>
-	<item name="shades" prob="2"/>
-	<item name="44MagBullet" count="4" prob="0.8"/>
-	<item group="ammo" prob="3"/>
+	<item group="ammo" prob="1"/>
 	<item group="weaponsPistol+ammo" prob="0.3"/>
 </lootcontainer>
 
@@ -1950,7 +1951,6 @@
 	<item name="hoodedSweatshirtWhite" prob="1"/>
 	<item name="blackDenimPants" prob="1"/>
 	<item name="runningShoes" prob="1"/>
-	<item name="herbalAntibiotics" count="3" prob="3"/>
 	<item name="mechanicalParts" count="1,3" prob="1.5"/>
 	<item group="questChallenge" count="1" prob="0.036"/>
 	<item group="treasureMaps" count="1" prob="0.031"/>
@@ -2018,7 +2018,7 @@
 <!-- ZombieStripper -->
 <lootcontainer id="84" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="2"/>
-	<item name="oldCash" count="4,55" prob="2"/>
+	<item name="oldCash" count="4,45" prob="2"/>
 	<item name="casinoCoin" count="10,30"/>
 	<item name="scrapPlastics" count="2" prob="0.3"/>
 	<item name="bloodDrawKit" prob="0.3"/>
