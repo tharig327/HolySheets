@@ -85,7 +85,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <!-- * * * * * * * * * * * * main recipes * * * * * * * * * * * * -->
-
+<!--#Ty1 -->
+<recipe name="superWrench" count="1" >
+	<ingredient name="wood" count="1"/>
+</recipe>
 <recipe name="44MagBullet" count="1" craft_area="workbench">
 	<ingredient name="bulletTip" count="1"/>
 	<ingredient name="gunPowder" count="3"/>
@@ -962,7 +965,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="1"/>
 	<ingredient name="feather" count="1"/>
 </recipe>
-
+<!--#Ty2-->
+<recipe name="No Sh*t" count="1">
+	<ingredient name="turd" count="1"/>
+</recipe>
 <recipe name="fertilizer" count="1" craft_area="chemistryStation">
 	<ingredient name="turd" count="1"/>
 	<ingredient name="potassiumNitratePowder" count="10"/>
@@ -2007,6 +2013,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="shovelSteel" count="1" craft_area="workbench">
 	<ingredient name="forgedSteel" count="20"/>
 	<ingredient name="wood" count="10"/>
+</recipe>
+<!--#Ty4-->
+<recipe name="hammerOfGod" count="1">
+	<ingredient name="wood" count="1"/>
 </recipe>
 
 <recipe name="sledgehammer" count="1">

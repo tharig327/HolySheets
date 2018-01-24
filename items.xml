@@ -1770,7 +1770,7 @@ Mesh files no longer used:
 		<property name="Upgrade_hit_offset" value="-4"/>
 		<property name="Sound_start" value="repair_block"/>
 		<property name="Upgrade_action_sound" value="ImpactSurface/metalhitearth"/>
-		<property name="Allowed_upgrade_items" value="hoeIron,dirtFragment,fertilizer"/>
+		<property name="Allowed_upgrade_items" value="hoeIron,dirtFragment,No Sh*t,fertilizer"/>
 		<property name="ActionExp" value="0"/>
 	</property>
 	<!-- <property class="Action1">
@@ -8533,7 +8533,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1325" name="fertilizer">
-	<property name="Meshfile" value="Items/Food/cornmealPrefab"/>
+	<property name="Meshfile" value="Items/Fod/cornmealPrefab"/>
 	<property name="Material" value="MfertilizedFarmland"/>
 	<property name="HoldType" value="21"/>
 	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
@@ -8543,7 +8543,18 @@ Mesh files no longer used:
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </item>
-
+<!--#Ty3-->
+<item id="1372" name="No Sh*t">
+<property name="Meshfile" value="Items/Food/cornmealPrefab"/>
+<property name="Material" value="MfertilizedFarmland"/>
+<property name="HoldType" value="21"/>
+<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+<property name="EconomicValue" value="15"/>
+<property name="Group" value="Resources"/>
+<property name="CraftingIngredientTime" value=".01"/>
+<property name="CraftingSkillGroup" value="craftSkillScience"/>
+<property name="PickupJournalEntry" value="farmingTip"/>
+</item>
 <item id="1327" name="cloth"> <!-- scrap material -->
 	<property name="Meshfile" value="Items/Crafting/cloth"/>
 	<property name="Material" value="cloth"/>
@@ -8974,6 +8985,7 @@ Mesh files no longer used:
 	<property name="Group" value="Chemicals"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>-->
+<!--#Ty5-->
 
 <item id="1367" name="canEmpty">
 	<property name="Meshfile" value="Items/Food/can_empty"/>
@@ -9240,6 +9252,13 @@ Mesh files no longer used:
 	</property>
 	<property name="Group" value="Basics,Decor/Miscellaneous"/>
 </item>
+<!--#Ty6
+<item id=1446" name="peddles">
+	<property name="Extends" value="smallEngine"/>
+	<property class="Attributes">
+		<property name="VehicleMaxSpeed" value="5"/>
+		<property name"VehicleNoise" value="0"/>
+	</item> -->
 
 <item id="1431" name="smallEngine">
 	<property name="PartType" value="Receiver"/>
@@ -9257,7 +9276,7 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="DegradationMax" value="1000,6000"/>
 		<property name="VehicleNoise" value="1,0.1"/>
-		<property name="VehicleMaxSpeed" value="5,18"/>
+		<property name="VehicleMaxSpeed" value="5,18"/> <!--18-->
 		<property name="VehicleAcceleration" value="7,14"/>
 		<property name="VehicleMetersPerLiter" value="8,12"/>
 		<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
@@ -9484,7 +9503,7 @@ Mesh files no longer used:
 </item>
 
 
-<!--
+
 <item id="1501" name="superWrench">
 	<property name="Extends" value="wrench"/>
 	<property name="CustomIcon" value="wrench"/>
@@ -9612,5 +9631,5 @@ Mesh files no longer used:
 		<property name="DismembermentBaseChance" value="1"/>
 	</property>
 </item>
--->
+
 </items>
